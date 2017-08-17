@@ -16,4 +16,9 @@ Another major feature to include would be the ability to calculate the "value" o
 1. 
 
 ## PROFILE DETAILS
-1. 
+1. Date of first page viewed (and calculated number of days being a viewer)
+1. Date of first revision (and calculated number of days being a contributor)
+1. Number of unique pages viewed (ever, over all time)
+1. Number of unique pages revised (ever, over all time)
+1. List of categories of pages revised, in descending order by percentage of pages in that category that user revised (user revised 85% of pages in Category:Tool and 74% of pages in Category:Module)
+1. List of "friends/colleagues" based on categories of pages that both users heavily contribute to, in descending order
