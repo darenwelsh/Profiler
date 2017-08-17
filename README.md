@@ -32,7 +32,7 @@ Another major feature to include would be the ability to calculate the "value" o
 1. User's score-view ratio (current value and plot over time)
 1. Plot user activity and avg activity over time with std dev (box plot over time); compare before/after date (effect of change)
 1. For user, unique page views per day, recent revisions for those pages, and number of thanks by user
-1.Type cast ... revising size freq, num pages
+1. Type cast ... revising size freq, num pages
 1. 
 
 ## PAGE FEATURES
