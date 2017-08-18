@@ -80,8 +80,22 @@ For those people less technically inclined, this might be their niche.
 ## Devise your activity loops
 *Explore in greater detail how you will motivate your players using engagement and progression loops. First, describe the kinds of feedback your system will offer the players to encourage further action, and explain how this feedback will work to motivate the players. (Remember: rewards are only one kind of feedback.) Second, how if at all will players progress in your system? This includes how the system will get new players engaged, and how it will remain interesting for more experienced players.*
 
+Make sure these activity loops appear to providy autonomy. People will be more likely to play if they believe they control their destiny. The activities should also be obviously related to our work. Most people will not participate if it does not advertise a value-gained for the organization.
+
+There should be smaller loops intended for individual actions nested within larger loops focused on individual progression.
+
 ## Don't forget the fun
 *Although more abstract than some of the other elements, ensuring that your gamified system is fun remains as important as the other aspects. In order to fully explore this aspect of the design process, consider how your game would function without any extrinsic rewards. Would you say it was fun? Identify which aspects of the game could continue to motivate players to participate even without rewards.*
+
+Kinds of fun:
+1. Sensation
+1. Fantasy (an abstraction of wiki pages as a game, like Egress)
+1. Narrative (the story of a person's progression)
+1. Challenge (obstacles, increasing difficulty)
+1. Fellowship (social framework)
+1. Discovery (explore)
+1. Expression (soap box)
+1. Submission (mindless pastime)
 
 ## Deploy the appropriate tools
 *By this point, you've probably identified several of the game elements and other specifics of your gamified system. If you haven’t already, you should explain in detail what your system would look like. What are some of the game elements involved and what will the experience be like for the players? What specific choices would you make in deploying your system? For example, you might discuss whether the gamified system is to be experienced primarily on personal computers, mobile devices, or some other platform. You might also describe what feedback, rewards, and other reinforcements the players could receive. Finally, think about whether you’ve tied your decisions back to the other five steps in the process, especially the business objectives.*
