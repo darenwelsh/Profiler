@@ -2,6 +2,8 @@
 An extension to MediaWiki providing a platform to measure and profile user activity
 
 ## GENERAL CONCEPT
+*See also [Gamification Design Framework for a Wiki](FRAMEWORK.md)*
+
 There are many ways we can measure and quantify each user's wiki activity including viewing, reviewing, revising, participation, contribution, recognition, interaction, and persistance. This project will build a platform that provides new database tables and mechanisms to record this meta data so as to not strain the MediaWiki core functionality. For example, [Extension:UserJourney](https://github.com/darenwelsh/UserJourney) can run a query on the revision table to determine a user's history and it will generate various reports based on the scope. But each query is large and puts a strain on the server. So this project, at its core, is to provide a way for gathering and querying this data without straining the server. Upon this platform, many approaches to profile and even gamify each user's participation in the wiki will be added. UserJourney already provides several examples to get us started.
 
 With this platform, the data necessary to build profiles on each user will be available. See the profile details section below for ideas of what this will include. By building profiles on each user, we can better understand the different types of people participating in the wiki and what motivates them. Each type of person might be motivated by different features and feedback. For example, a competitor is motivated by points and leaderboards. A collector might be motivated by badges. A socializer might be motivated by features allowing users to share their work and discuss it.
