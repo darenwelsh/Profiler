@@ -3,6 +3,7 @@
 ## References
 * [Gamification Framework (yukaichou.com)](http://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/)
 * [Sims Design Documents - "Find Best Action"](http://donhopkins.com/home/TheSimsDesignDocuments/Ch21-Happy.pdf)
+* [Motivation for Online Participation (Wikipedia)](https://en.wikipedia.org/wiki/Online_participation#Motivations)
 
 ## Define business objectives
 *Why are you gamifying? How do you hope to benefit your business, or achieve some other goal such as motivating people to change their behavior? As you state your objectives, emphasize the end goal or goals of your gamified design rather than detailing the means through which you'll achieve this goal. Basically, if your gamified system does what you intend, what specific positive results will it generate for your organization?*
