@@ -12,10 +12,16 @@ One major feature that would be useful in different applications would be to mak
 
 Another major feature to include would be the ability to calculate the "value" of each contribution based on multiple factors. For example, if a user adds some content that has numerous incoming links (pages that link to it) then it would seem that content is valuable to others. The score should increase if those links are made from different contributors. Otherwise one person could artificially inflate the score of their revision by adding links. Furthermore, value could be calculated by how often other users view and thank the author for this bit of content.
 
+The first approach with [Extension:UserJourney] was to make use of hooks built into MediaWiki core. This provided instant feedback, but was limited in the details collected because the code to collect data on each action had to be created from scratch. This approach also did not make use of a wiki's history. So any point/badge/history system only had data from the time the extension was installed and activated. This is unfortunate for a wiki that has been functioning for years like Wikipedia. [Extension:UserJourney] was then completely restarted to instead make use of existing data in the database tables (like the revision table). While this method did not provide realtime feedback (like congratulating a user with points for editing a page), it did allow the use of all historical data for the wiki. This allows us to build a much more comprehensive profile of each user for any wiki that did not have this extension installed from the beginning. Ultimately, a system combining both of these approaches is probably best - to provide realtime feedback and to make use of all historical data from before the activation of this extension.
+
 ## REQUIREMENTS
-1. Provide a MediaWiki database modification that allows for tracking these meta data and calculating metrics without significant strain on the server.
-1. Metrics should be updated as close to real-time as possible. A simple solution would be to run maintenance tasks at night to query the core database and update scores and other metrics in a separate table. But these values would only be updated nightly. It is more ideal if a user sees real-time feedback for their actions (positive reinforcement).
-1. 
+1. Provide a MediaWiki database modification that allows for tracking these meta data and calculating metrics without significant strain on the server (MySQL or MariaDB).
+1. Since MediaWiki core is written in PHP, it is highly desired for the bulk of this extension to be written in PHP. Javascript can be used for front-end things. Other languages and libraries are acceptable with the understanding that each new dependency (things that must be installed on the server for this extension to work) make it less likely to be adopted by the MediaWiki community. 
+1. Provide clear documentation on how to install, configure, and use the extension. Include screenshots and animated GIFs.
+1. Design and build the extension to make use of real-time events through the use of hooks for immediate feedback while also making use of the entire history of the wiki.
+1. Documentation should include a list of events and the hooks used to drive those events
+1. Allow for the wiki sysadmin to configure variables via a config PHP file
+1. Support multiple wikis on a single server (see [meza](https://github.com/enterprisemediawiki/meza))
 
 ## PROFILE DETAILS
 1. Date of first page viewed (and calculated number of days being a viewer)
